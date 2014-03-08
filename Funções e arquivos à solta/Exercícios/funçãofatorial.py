@@ -4,7 +4,8 @@ def fat(n): #Número fatorial
 		a = a * n #fatorial
 		n = n - 1 #diminuindo até 0
 	return a
-for i in range(5): print(fat(i))
+for i in range(5): 
+	print(fat(i))
 
 
 	

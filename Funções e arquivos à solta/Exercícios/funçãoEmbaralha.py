@@ -3,4 +3,6 @@ def embaralha(t):
 	lista = list(t)
 	random.shuffle(lista)
 	return ''.join(lista)
+i = 'bananas'
+print(embaralha(i))
 
